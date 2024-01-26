@@ -1,0 +1,99 @@
+body {
+    background: url(pexels-tomas-anunziata-3876407.jpg);
+    
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: transparent;
+    backdrop-filter: blur(20px);
+
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 10);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.login-form h2 {
+    color: #fff;
+}
+
+.login-form {
+    color: #fff;
+}
+
+
+.login-form p {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #0073e6;
+    background: transparent;
+    color: #fff;
+    outline: none;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: white;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.forgot-password a {
+    color: #0073e6;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+button {
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005bb7;
+}
+
+.signup-link {
+    margin-top: 10px;
+}
+
+.signup-link a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}

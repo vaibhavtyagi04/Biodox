@@ -1,0 +1,74 @@
+/* ... (previous styles) */
+
+
+body {
+    margin: 0 auto;
+    background: url(clemence-bergougnoux-EE1B5Kvu6yg-unsplash.jpg);
+    
+}
+
+.forgot-password-container {
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.forgot-password-form h2 {
+    color: #333;
+}
+
+.forgot-password-form p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.forgot-password-form .input-group {
+    margin-bottom: 20px;
+}
+
+.forgot-password-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #0073e6;
+    background: transparent;
+    color: #333;
+    outline: none;
+}
+
+form button {
+     margin-bottom:10px;
+}
+
+
+.forgot-password-form input[type="email"]::placeholder {
+    color: #aaa;
+}
+
+.forgot-password-form button {
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.forgot-password-form button:hover {
+    background-color: #005bb7;
+}
+
+.forgot-password-form .login-link a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.forgot-password-form .login-link a:hover {
+    text-decoration: underline;
+}
